@@ -1,5 +1,5 @@
 {
-    "name": "gloudemans/shoppingcart",
+    "name": "taron/laravel-shoppingcart",
     "description": "Laravel Shoppingcart",
     "keywords": ["laravel", "shoppingcart"],
     "license": "MIT",
@@ -28,9 +28,6 @@
         "psr-4": {
             "Gloudemans\\Tests\\Shoppingcart\\": "tests/"
         }
-    },
-    "suggest": {
-        "gloudemans/notify": "Simple flash notifications for Laravel"
     },
     "minimum-stability": "stable",
     "extra": {
