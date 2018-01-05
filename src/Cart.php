@@ -48,7 +48,7 @@ class Cart
         $this->session = $session;
         $this->events = $events;
 
-        $this->instance(self::DEFAULT_INSTANCE);
+        $this->instance(static::DEFAULT_INSTANCE);
     }
 
     /**
@@ -59,7 +59,7 @@ class Cart
      */
     public function instance($instance = null)
     {
-        $instance = $instance ?: self::DEFAULT_INSTANCE;
+        $instance = $instance ?: static::DEFAULT_INSTANCE;
 
         $this->instance = sprintf('%s.%s', 'cart', $instance);
 
